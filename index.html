@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            :root
+            {
+                --tracteur-webfront-init: {
+                    "col-quantity": 12,
+                    "screen-size": {
+                        "xsmall": [-1, 576],
+                        "small": [576, 768],
+                        "medium": [768, 992],
+                        "large": [992, 1200],
+                        "xlarge": [1200, -1]
+                    }
+                };
+            }
+        </style>
+        <script type="module" src="gridfront.js"></script>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="begin-xlarge-3 end-xlarge-10 begin-large-3 end-large-10" style="background-color: blueviolet; height: 250px;"></div>
+            <div class="xlarge new-row"></div>
+            <div class="begin-xlarge-11 end-xlarge-12 begin-large-2 end-large-11" style="background-color: orange; height: 250px;"></div>
+        </div>
+    </body>
+</html>
