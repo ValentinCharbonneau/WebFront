@@ -1,5 +1,5 @@
-import { GridLoader } from './kernel/GridLoader.js';
-import { GridGenerator } from './kernel/GridGenerator.js';
+import { GridLoader } from './kernel/Grid/GridLoader.js';
+import { GridGenerator } from './kernel/Grid/GridGenerator.js';
 
 GridLoader.load();
 
